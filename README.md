@@ -23,3 +23,5 @@ You can build the resume with an easy:
 3. It separates the content from the presentation, meaning I can generate the same resume in multiple styles for multiple purposes.
 
 ## Credit
+
+Inspired (and based off) the [JSONResume](https://jsonresume.org/) project
