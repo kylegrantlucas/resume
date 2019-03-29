@@ -1,0 +1,278 @@
+{
+  "basics": {
+    "name": "Kyle Lucas",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "kyle@kylelucas.io",
+    "phone": "",
+    "website": "http://kylelucas.io",
+    "summary": "I build web-scale services, mostly in Go and Ruby.",
+    "location": {
+      "city": "Los Angeles",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "kylegrantlucas",
+        "url": "https://github.com/kylegrantlucas"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "kylegrantlucas",
+        "url": "https://www.linkedin.com/in/kylegrantlucas"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "i.am+",
+      "location": "Hollywood, CA",
+      "position": "Software Engineering Manager",
+      "website": "https://i.am",
+      "startDate": "2018-10-01",
+      "summary": "",
+      "highlights": [
+        "Managed a small but effective backend services team",
+        "Lead the planning and execution of all US-based infrastructure",
+        "Worked with offshore QA and Engineering teams to pursue mutual goals",
+        "Organized deployment of microservices on a Kubernetes platform"
+      ]
+    },
+    {
+      "company": "i.am+",
+      "location": "Hollywood, CA",
+      "position": "Senior Software Engineer",
+      "website": "https://i.am",
+      "startDate": "2016-08-22",
+      "summary": "",
+      "highlights": [
+        "Built several highly scalable services for a music streaming platform",
+        "Optimized elasticsearch for voice-first search on a music knowledge base",
+        "Built tools for fast ingestion of GBs of metadata for service consumption",
+        "Designed an automated pipeline for nightly music data ingestion",
+        "Managed projects for our MIT interns",
+        "Built a service for managing smartwatch registration and preferences",
+        "Golang, gRPC, Docker, Postgresql, Elasticsearch, Redis, Neo4j, Ruby"
+      ]
+    },
+    {
+      "company": "goSeek",
+      "location": "Los Angeles, CA",
+      "position": "Software Engineer",
+      "website": "https://goseek.com",
+      "startDate": "2015-03-01",
+      "endDate": "2016-03-01",
+      "summary": "",
+      "highlights": [
+        "Built a central API for booking hotel stays through multiple 3rd party APIs",
+        "Built a full-stack login authentication system",
+        "Worked with caching large volumes of hotel searches and results",
+        "Ruby On Rails, Redis, Memcached, Postgresql w/ PostGIS"
+      ]
+    },
+    {
+      "company": "TrackR",
+      "location": "Santa Barbra, CA",
+      "position": "Software Engineer (Consultant)",
+      "website": "https://www.thetrackr.com/",
+      "startDate": "2014-09-01",
+      "endDate": "2015-02-01",
+      "summary": "",
+      "highlights": [
+        "Built a management tool for users to manage their Indiegogo orders",
+        "Hand built a blogging platform from scratch",
+        "Ruby On Rails, Postgresql, ActiveAdmin"
+      ]
+    },
+    {
+      "company": "resound.fm",
+      "location": "San Luis Obispo, CA",
+      "position": "Co-Founder / Lead Backend Engineer",
+      "website": "http://resound.fm",
+      "startDate": "2014-03-01",
+      "endDate": "2015-03-01",
+      "summary": "",
+      "highlights": [
+        "Designed and implemented data models, built APIs, managed DevOps",
+        "Participated in business development, marketing and social media",
+        "Ruby On Rails, Redis, Websockets, Postgresql, Chef, Rackspace"
+      ]
+    },
+    {
+      "company": "RadPad",
+      "location": "Santa Monica, CA",
+      "position": "Software Engineer",
+      "website": "http://onradpad.com",
+      "startDate": "2014-01-01",
+      "endDate": "2014-03-01",
+      "summary": "",
+      "highlights": [
+        "Redesigned the backend apartment aggregation service to be 3x faster",
+        "Designed and implemented a realtime messaging service with PubSub",
+        "Implemented the base unit testing framework on an established application",
+        "Ruby On Rails, Postgresql, S3"
+      ]
+    },
+    {
+      "company": "Project Gigit",
+      "location": "Los Angeles, CA",
+      "position": "Software Engineer (Consultant)",
+      "website": "http://piedpiper.com",
+      "startDate": "2013-10-15",
+      "endDate": "2013-12-15",
+      "summary": "",
+      "highlights": [
+        "Built a service using concert data to help promoters identify band bookings",
+        "Ruby On Rails, Facebook API, Postgresql"
+      ]
+    },
+    {
+      "company": "Down",
+      "location": "San Francisco, CA",
+      "position": "Software Engineering Intern",
+      "website": "http://getdown.com",
+      "startDate": "2013-06-01",
+      "endDate": "2013-10-01",
+      "summary": "",
+      "highlights": [
+        "Built a Neo4j graph and API v2.0 for match discovery on 1.3m users",
+        "Ruby on Rails, Neo4j, Postgresql"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "PolyFounders",
+      "position": "Speaker",
+      "website": "http://polyfounders.com/",
+      "startDate": "2015-01-01",
+      "endDate": "2015-06-01",
+      "summary": "A club for founders and entrepreneurs at Cal Poly Pomona",
+      "highlights": []
+    },
+    {
+      "organization": "HackPoly 2017",
+      "position": "Mentor & Judge",
+      "website": "http://hackpoly.com/",
+      "startDate": "2017-02-18",
+      "endDate": "2017-02-21",
+      "summary": "A hackathon event hosted at Cal Poly Pomona.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cal Poly Pomona",
+      "location": "Pomona, CA",
+      "area": "Computer Science",
+      "studyType": "",
+      "startDate": "2011-09-15",
+      "endDate": "2015-02-01",
+      "courses": [
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Eagle Scout",
+      "date": "2011-08-01",
+      "awarder": "BSA"
+    }
+  ],
+  "projects": [
+    {
+      "name": "resume-exporter",
+      "releaseDate": "2019-03-27",
+      "website": "https://github.com/kylegrantlucas/resume-exporter",
+      "summary": "A Go tool for exporting the JSONResume format to LaTeX"
+    },
+    {
+      "name": "kylelucas.io",
+      "releaseDate": "2019-03-22",
+      "website": "https://github.com/kylegrantlucas/kylelucas.io",
+      "summary": "My personal website, built in TypeScript with react."
+    },
+    {
+      "name": "plex-lametric",
+      "releaseDate": "2019-03-19",
+      "website": "https://github.com/kylegrantlucas/plex-lametric",
+      "summary": "A Go webserver for showing Plex data on a LaMetric Clock"
+    },
+    {
+      "name": "cyberpower-exporter",
+      "releaseDate": "2018-12-04",
+      "website": "https://github.com/kylegrantlucas/cyberpower-exporter",
+      "summary": "A Go Prometheus exporter for the Cyberpower UPS line"
+    },
+    {
+      "name": "discord-lametric",
+      "releaseDate": "2018-11-08",
+      "website": "https://github.com/kylegrantlucas/discord-lametric",
+      "summary": "A Go daemon for pushing Discord Notifications to a LaMetric Clock"
+    },
+    {
+      "name": "speedtest",
+      "releaseDate": "2018-04-16",
+      "website": "https://github.com/kylegrantlucas/speedtest",
+      "summary": "A Go package for running tests against speedtest.net"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Development",
+      "level": "Skilled",
+      "keywords": [
+        "Golang",
+        "Ruby",
+        "Bash",
+        "Postgresql",
+        "Elasticsearch",
+        "Neo4j",
+        "Redis"
+      ]
+    },
+    {
+      "name": "Deployment Tools",
+      "level": "Skilled",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Prometheus",
+        "Traefik",
+        "Grafana",
+        "Helm"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Consumption",
+        "Production",
+        "Guitar",
+        "Bass",
+        "Live Shows"
+      ]
+    },
+    {
+      "name": "Technology",
+      "keywords": [
+        "Service Engineering",
+        "Homelab",
+        "Gaming",
+        "Architecture",
+        "Gadgets"
+      ]
+    }
+  ],
+  "references": []
+}
