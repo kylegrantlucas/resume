@@ -1,0 +1,264 @@
+
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj (Templating by Kyle Lucas)
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} %----clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\companyItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%----------- CV STARTS HERE-----------------
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://kylelucas.io}{\Large Kyle Lucas}} & Email : \href{mailto:kyle@kylelucas.io}{kyle@kylelucas.io}\\
+  \href{http://kylelucas.io}{http://kylelucas.io}  \\
+\end{tabular*}
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+	  \resumeSubheading
+	    {i.am+}{Hollywood, CA}
+	    {Software Engineering Manager}{2018-10-01 - Present}
+	    \resumeItemListStart
+	      \companyItem
+	        {Managed a small but effective backend services team}
+	      \companyItem
+	        {Lead the planning and execution of all US-based infrastructure}
+	      \companyItem
+	        {Worked with offshore QA and Engineering teams to pursue mutual goals}
+	      \companyItem
+	        {Organized deployment of microservices on a Kubernetes platform}
+			\resumeItemListEnd
+
+	  \resumeSubheading
+	    {i.am+}{Hollywood, CA}
+	    {Senior Software Engineer}{2016-08-22 - Present}
+	    \resumeItemListStart
+	      \companyItem
+	        {Built several highly scalable services for a music streaming platform}
+	      \companyItem
+	        {Optimized elasticsearch for voice-first search on a music knowledge base}
+	      \companyItem
+	        {Built tools for fast ingestion of GBs of metadata for service consumption}
+	      \companyItem
+	        {Designed an automated pipeline for nightly music data ingestion}
+	      \companyItem
+	        {Managed projects for our MIT interns}
+	      \companyItem
+	        {Built a service for managing smartwatch registration and preferences}
+	      \companyItem
+	        {Golang, gRPC, Docker, Postgresql, Elasticsearch, Redis, Neo4j, Ruby}
+			\resumeItemListEnd
+
+	  \resumeSubheading
+	    {goSeek}{Los Angeles, CA}
+	    {Software Engineer}{2015-03-01 - 2016-03-01}
+	    \resumeItemListStart
+	      \companyItem
+	        {Built a central API for booking hotel stays through multiple 3rd party APIs}
+	      \companyItem
+	        {Built a full-stack login authentication system}
+	      \companyItem
+	        {Worked with caching large volumes of hotel searches and results}
+	      \companyItem
+	        {Ruby On Rails, Redis, Memcached, Postgresql w/ PostGIS}
+			\resumeItemListEnd
+
+	  \resumeSubheading
+	    {TrackR}{Santa Barbra, CA}
+	    {Software Engineer (Consultant)}{2014-09-01 - 2015-02-01}
+	    \resumeItemListStart
+	      \companyItem
+	        {Built a management tool for users to manage their Indiegogo orders}
+	      \companyItem
+	        {Hand built a blogging platform from scratch}
+	      \companyItem
+	        {Ruby On Rails, Postgresql, ActiveAdmin}
+			\resumeItemListEnd
+
+	  \resumeSubheading
+	    {resound.fm}{San Luis Obispo, CA}
+	    {Co-Founder / Lead Backend Engineer}{2014-03-01 - 2015-03-01}
+	    \resumeItemListStart
+	      \companyItem
+	        {Designed and implemented data models, built APIs, managed DevOps}
+	      \companyItem
+	        {Participated in business development, marketing and social media}
+	      \companyItem
+	        {Ruby On Rails, Redis, Websockets, Postgresql, Chef, Rackspace}
+			\resumeItemListEnd
+
+	  \resumeSubheading
+	    {RadPad}{Santa Monica, CA}
+	    {Software Engineer}{2014-01-01 - 2014-03-01}
+	    \resumeItemListStart
+	      \companyItem
+	        {Redesigned the backend apartment aggregation service to be 3x faster}
+	      \companyItem
+	        {Designed and implemented a realtime messaging service with PubSub}
+	      \companyItem
+	        {Implemented the base unit testing framework on an established application}
+	      \companyItem
+	        {Ruby On Rails, Postgresql, S3}
+			\resumeItemListEnd
+
+	  \resumeSubheading
+	    {Project Gigit}{Los Angeles, CA}
+	    {Software Engineer (Consultant)}{2013-10-15 - 2013-12-15}
+	    \resumeItemListStart
+	      \companyItem
+	        {Built a service using concert data to help promoters identify band bookings}
+	      \companyItem
+	        {Ruby On Rails, Facebook API, Postgresql}
+			\resumeItemListEnd
+
+	  \resumeSubheading
+	    {Down}{San Francisco, CA}
+	    {Software Engineering Intern}{2013-06-01 - 2013-10-01}
+	    \resumeItemListStart
+	      \companyItem
+	        {Built a Neo4j graph and API v2.0 for match discovery on 1.3m users}
+	      \companyItem
+	        {Ruby on Rails, Neo4j, Postgresql}
+			\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Cal Poly Pomona}{Pomona, CA}
+      {Computer Science}{2011-09-15 - 2015-02-01}
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{resume-exporter}
+      {A Go tool for exporting the JSONResume format to LaTeX}
+    \resumeSubItem{kylelucas.io}
+      {My personal website, built in TypeScript with react.}
+    \resumeSubItem{plex-lametric}
+      {A Go webserver for showing Plex data on a LaMetric Clock}
+    \resumeSubItem{cyberpower-exporter}
+      {A Go Prometheus exporter for the Cyberpower UPS line}
+    \resumeSubItem{discord-lametric}
+      {A Go daemon for pushing Discord Notifications to a LaMetric Clock}
+    \resumeSubItem{speedtest}
+      {A Go package for running tests against speedtest.net}
+  \resumeSubHeadingListEnd
+
+%-----------VOLUNTEER WORK-----------------
+\section{Volunteer Work}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {PolyFounders}{}
+      {Speaker}{2015-01-01 - 2015-06-01}
+
+    \resumeSubheading
+      {HackPoly 2017}{}
+      {Mentor + Judge}{2017-02-18 - 2017-02-21}
+
+  \resumeSubHeadingListEnd
+
+%-----------AWARDS-----------------
+\section{Awards}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Eagle Scout}{}
+      {BSA}{2011-08-01}
+
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Development}{: Golang, Ruby, Bash, Postgresql, Elasticsearch, Neo4j, Redis}
+      \hfill
+    }
+    \item{
+      \textbf{Deployment Tools}{: Docker, Kubernetes, Prometheus, Traefik, Grafana, Helm}
+      \hfill
+    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
