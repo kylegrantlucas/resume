@@ -8,7 +8,7 @@ The requirements list is quite simple:
 
 * Make
 * Docker
-* resume-exporter
+* [resume-exporter](https://github.com/kylegrantlucas/resume-exporter)
 
 ## Usage
 
