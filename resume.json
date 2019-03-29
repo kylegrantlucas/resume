@@ -247,34 +247,5 @@
         "Spinnaker"
       ]
     }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Music",
-      "keywords": [
-        "Consumption",
-        "Production",
-        "Guitar",
-        "Bass",
-        "Live Shows"
-      ]
-    },
-    {
-      "name": "Technology",
-      "keywords": [
-        "Service Engineering",
-        "Homelab",
-        "Gaming",
-        "Architecture",
-        "Gadgets"
-      ]
-    }
-  ],
-  "references": []
+  ]
 }
