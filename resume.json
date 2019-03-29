@@ -230,11 +230,12 @@
         "Postgresql",
         "Elasticsearch",
         "Neo4j",
-        "Redis"
+        "Redis",
+        "InfluxDB"
       ]
     },
     {
-      "name": "Deployment Tools",
+      "name": "Tooling",
       "level": "Skilled",
       "keywords": [
         "Docker",
@@ -242,7 +243,8 @@
         "Prometheus",
         "Traefik",
         "Grafana",
-        "Helm"
+        "Helm",
+        "Spinnaker"
       ]
     }
   ],
