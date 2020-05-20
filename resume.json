@@ -35,7 +35,7 @@
       "endDate": "2020-05-15",
       "summary": "",
       "highlights": [
-        "Lead conversion of backend from a 3rd party lambda to a native Go lambda",
+        "Led conversion of backend from a 3rd party lambda to a native Go lambda",
         "Helped design and implement a new version of our curriculum backend",
         "Built a parser to convert MusicXML to an internal JSON format",
         "Rearchitected the progress backend to handle changing content structure",
@@ -51,7 +51,7 @@
       "endDate": "2019-05-04",
       "summary": "",
       "highlights": [
-        "Lead the planning and execution of all US-based infrastructure",
+        "Led the planning and execution of all US-based infrastructure",
         "Worked with offshore QA and Engineering teams to pursue mutual goals",
         "Organized deployment of microservices on a Kubernetes platform"
       ]
