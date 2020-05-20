@@ -27,14 +27,30 @@
   },
   "work": [
     {
+      "company": "Fender Musical Instruments",
+      "location": "Hollywood, CA",
+      "position": "Senior Software Engineer",
+      "website": "https://fender.com",
+      "startDate": "2019-05-06",
+      "endDate": "2020-05-15",
+      "summary": "",
+      "highlights": [
+        "Lead conversion of backend from a 3rd party lambda to a native Go lambda",
+        "Helped design and implement a new version of our curriculum backend",
+        "Built a parser to convert MusicXML to an internal JSON format",
+        "Rearchitected the progress backend to handle changing content structure",
+        "Golang, Javascript, React, Lambda, DynamoDB, Postgresql, Elasticsearch"
+      ]
+    },
+    {
       "company": "i.am+",
       "location": "Hollywood, CA",
       "position": "Software Engineering Manager",
       "website": "https://i.am",
       "startDate": "2018-10-01",
+      "endDate": "2019-05-04",
       "summary": "",
       "highlights": [
-        "Managed a small but effective backend services team",
         "Lead the planning and execution of all US-based infrastructure",
         "Worked with offshore QA and Engineering teams to pursue mutual goals",
         "Organized deployment of microservices on a Kubernetes platform"
@@ -46,13 +62,12 @@
       "position": "Senior Software Engineer",
       "website": "https://i.am",
       "startDate": "2016-08-22",
+      "endDate": "2019-05-04",
       "summary": "",
       "highlights": [
         "Built several highly scalable services for a music streaming platform",
         "Optimized elasticsearch for voice-first search on a music knowledge base",
-        "Built tools for fast ingestion of GBs of metadata for service consumption",
-        "Designed an automated pipeline for nightly music data ingestion",
-        "Managed projects for our MIT interns",
+        "Designed a fast automated pipeline to ingest of GBs of nightly music data",
         "Built a service for managing smartwatch registration and preferences",
         "Golang, gRPC, Docker, Postgresql, Elasticsearch, Redis, Neo4j, Ruby"
       ]
@@ -67,7 +82,6 @@
       "summary": "",
       "highlights": [
         "Built a central API for booking hotel stays through multiple 3rd party APIs",
-        "Built a full-stack login authentication system",
         "Worked with caching large volumes of hotel searches and results",
         "Ruby On Rails, Redis, Memcached, Postgresql w/ PostGIS"
       ]
@@ -82,7 +96,6 @@
       "summary": "",
       "highlights": [
         "Built a management tool for users to manage their Indiegogo orders",
-        "Built a blogging platform in Rails",
         "Ruby On Rails, Postgresql, ActiveAdmin"
       ]
     },
@@ -96,7 +109,6 @@
       "summary": "",
       "highlights": [
         "Designed and implemented data models, built APIs, managed DevOps",
-        "Participated in business development, marketing and social media",
         "Ruby On Rails, Redis, Websockets, Postgresql, Chef, Rackspace"
       ]
     },
@@ -111,7 +123,6 @@
       "highlights": [
         "Redesigned the backend apartment aggregation service to be 3x faster",
         "Designed and implemented a realtime messaging service with PubSub",
-        "Implemented the base unit testing framework on an established application",
         "Ruby On Rails, Postgresql, S3"
       ]
     },
@@ -119,7 +130,7 @@
       "company": "Project Gigit",
       "location": "Los Angeles, CA",
       "position": "Software Engineer (Consultant)",
-      "website": "http://piedpiper.com",
+      "website": "https://www.getgigit.com/",
       "startDate": "2013-10-15",
       "endDate": "2013-12-15",
       "summary": "",
@@ -166,7 +177,7 @@
     {
       "institution": "Cal Poly Pomona",
       "location": "Pomona, CA",
-      "area": "Computer Science",
+      "area": "Computer Science (Incomplete)",
       "studyType": "",
       "startDate": "2011-09-15",
       "endDate": "2015-02-01",
