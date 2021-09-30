@@ -1,3 +1,4 @@
+name: Generate Resume PDFs
 on: [push]
 jobs:
   build_and_test:
