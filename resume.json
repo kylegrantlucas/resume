@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Kyle Lucas",
+    "name": "Kyle Lucas-Rodriguez",
     "label": "Software Engineer",
     "picture": "",
     "email": "kyle@kylelucas.io",
@@ -22,10 +22,28 @@
         "network": "LinkedIn",
         "username": "kylegrantlucas",
         "url": "https://www.linkedin.com/in/kylegrantlucas"
+      },
+      {
+        "network": "Twitter",
+        "username": "kylegrantlucas",
+        "url": "https://twitter.com/kylegrantlucas"
       }
     ]
   },
   "work": [
+    {
+      "company": "Fastly",
+      "location": "Remote",
+      "position": "Senior Software Engineer",
+      "website": "https://fastly.com",
+      "startDate": "2020-08-31",
+      "endDate": "",
+      "highlights": [
+        "Developed Bot protection systems",
+        "Implemented tools to help identify Account Take Over + API attacks",
+        "Golang, Elasticsearch, MongoDB, gRPC"
+      ]
+    },
     {
       "company": "Fender Musical Instruments",
       "location": "Hollywood, CA",
@@ -38,43 +56,29 @@
         "Led conversion of backend from a 3rd party lambda to a native Go lambda",
         "Helped design and implement a new version of our curriculum backend",
         "Built a parser to convert MusicXML to an internal JSON format",
-        "Rearchitected the progress backend to handle changing content structure",
         "Golang, Javascript, React, Lambda, DynamoDB, Postgresql, Elasticsearch"
       ]
     },
     {
       "company": "i.am+",
       "location": "Hollywood, CA",
-      "position": "Software Engineering Manager",
-      "website": "https://i.am",
-      "startDate": "2018-10-01",
+      "position": "Software Engineering Manager / Senior Software Engineer",
+      "website": "https://will.i.am/",
+      "startDate": "2016-08-22",
       "endDate": "2019-05-04",
       "summary": "",
       "highlights": [
         "Led the planning and execution of all US-based infrastructure",
         "Worked with offshore QA and Engineering teams to pursue mutual goals",
-        "Organized deployment of microservices on a Kubernetes platform"
-      ]
-    },
-    {
-      "company": "i.am+",
-      "location": "Hollywood, CA",
-      "position": "Senior Software Engineer",
-      "website": "https://i.am",
-      "startDate": "2016-08-22",
-      "endDate": "2019-05-04",
-      "summary": "",
-      "highlights": [
-        "Built several highly scalable services for a music streaming platform",
+        "Built several highly scalable microservices for a music streaming platform",
         "Optimized elasticsearch for voice-first search on a music knowledge base",
         "Designed a fast automated pipeline to ingest of GBs of nightly music data",
-        "Built a service for managing smartwatch registration and preferences",
-        "Golang, gRPC, Docker, Postgresql, Elasticsearch, Redis, Neo4j, Ruby"
+        "Golang, gRPC, Docker, Kubernetes, Postgresql, Elasticsearch, Neo4j, Ruby"
       ]
     },
     {
       "company": "goSeek",
-      "location": "Los Angeles, CA",
+      "location": "Remote",
       "position": "Software Engineer",
       "website": "https://goseek.com",
       "startDate": "2015-03-01",
@@ -88,7 +92,7 @@
     },
     {
       "company": "TrackR",
-      "location": "Santa Barbara, CA",
+      "location": "Remote",
       "position": "Software Engineer (Consultant)",
       "website": "https://www.thetrackr.com/",
       "startDate": "2014-09-01",
