@@ -207,7 +207,7 @@
       "name": "kylelucas.io",
       "releaseDate": "2019-03-22",
       "website": "https://github.com/kylegrantlucas/kylelucas.io",
-      "summary": "My personal website, built in TypeScript with react."
+      "summary": "My personal website, built with 11ty."
     },
     {
       "name": "plex-lametric",
