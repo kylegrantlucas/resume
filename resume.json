@@ -97,7 +97,6 @@
       "summary": "",
       "highlights": [
         "Built a central API for booking hotel stays through multiple 3rd party APIs",
-        "Worked with caching large volumes of hotel searches and results",
         "Ruby On Rails, Redis, Memcached, Postgresql w/ PostGIS"
       ]
     },
@@ -137,7 +136,6 @@
       "summary": "",
       "highlights": [
         "Redesigned the backend apartment aggregation service to be 3x faster",
-        "Designed and implemented a realtime messaging service with PubSub",
         "Ruby On Rails, Postgresql, S3"
       ]
     },
