@@ -82,8 +82,6 @@
         "Led the planning and execution of all US-based infrastructure",
         "Worked with offshore QA and Engineering teams to pursue mutual goals",
         "Built several highly scalable microservices for a music streaming platform",
-        "Optimized elasticsearch for voice-first search on a music knowledge base",
-        "Designed a fast automated pipeline to ingest of GBs of nightly music data",
         "Golang, gRPC, Docker, Kubernetes, Postgresql, Elasticsearch, Neo4j, Ruby"
       ]
     },
