@@ -34,10 +34,19 @@
     {
       "company": "Fastly",
       "location": "Remote",
+      "position": "Staff Software Engineer",
+      "website": "https://fastly.com",
+      "startDate": "2022-04-01",
+      "endDate": "",
+      "highlights": []
+    },
+    {
+      "company": "Fastly",
+      "location": "Remote",
       "position": "Senior Software Engineer",
       "website": "https://fastly.com",
       "startDate": "2020-08-31",
-      "endDate": "",
+      "endDate": "2022-03-31",
       "highlights": [
         "Developed Bot protection systems",
         "Implemented tools to help identify Account Take Over + API attacks",
