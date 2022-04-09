@@ -38,7 +38,9 @@
       "website": "https://fastly.com",
       "startDate": "2022-04-01",
       "endDate": "",
-      "highlights": []
+      "highlights": [
+        "Golang, Elasticsearch, MongoDB, gRPC"
+      ]
     },
     {
       "company": "Fastly",
