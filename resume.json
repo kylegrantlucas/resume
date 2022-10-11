@@ -205,10 +205,16 @@
   ],
   "projects": [
     {
-      "name": "resume-exporter",
-      "releaseDate": "2019-03-27",
-      "website": "https://github.com/kylegrantlucas/resume-exporter",
-      "summary": "A Go tool for exporting the JSONResume format to LaTeX"
+      "name": "pia-wg-config",
+      "releaseDate": "2022-09-18",
+      "website": "https://github.com/kylegrantlucas/pia-wg-config",
+      "summary": "A wireguard config generator for Private Internet Access."
+    },
+    {
+      "name": "lyricpiece",
+      "releaseDate": "2020-08-04",
+      "website": "https://github.com/kylegrantlucas/lyricpiece",
+      "summary": "A small tool that gets the currently playing spotify track and then grabs a sample of the lyrics for display."
     },
     {
       "name": "kylelucas.io",
@@ -217,22 +223,10 @@
       "summary": "My personal website, built with 11ty."
     },
     {
-      "name": "plex-lametric",
-      "releaseDate": "2019-03-19",
-      "website": "https://github.com/kylegrantlucas/plex-lametric",
-      "summary": "A Go webserver for showing Plex data on a LaMetric Clock"
-    },
-    {
       "name": "cyberpower-exporter",
       "releaseDate": "2018-12-04",
       "website": "https://github.com/kylegrantlucas/cyberpower-exporter",
       "summary": "A Go Prometheus exporter for the Cyberpower UPS line"
-    },
-    {
-      "name": "discord-lametric",
-      "releaseDate": "2018-11-08",
-      "website": "https://github.com/kylegrantlucas/discord-lametric",
-      "summary": "A Go daemon for pushing Discord Notifications to a LaMetric Clock"
     },
     {
       "name": "speedtest",
