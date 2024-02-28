@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v5
         with:
-          go-version: 1.17.0
+          go-version: 1.22.0
       - name: Install resume-exporter
         run: go install github.com/kylegrantlucas/resume-exporter@latest
       - name: Checkout repository
