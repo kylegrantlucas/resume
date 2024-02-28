@@ -11,11 +11,11 @@ jobs:
       - name: Install resume-exporter
         run: go install github.com/kylegrantlucas/resume-exporter@latest
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: generate resume
         run: make
       - name: Artifact resumes to check
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: resumes
           path: output/*.pdf
@@ -27,7 +27,7 @@ jobs:
             output/kyle_classic.pdf
             output/kyle_modern.pdf
       - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v1
+        uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: kylegrantlucas/kylelucas.io
