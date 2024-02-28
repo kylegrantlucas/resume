@@ -166,37 +166,29 @@
       "website": "http://polyfounders.com/",
       "startDate": "",
       "endDate": "2015",
-      "summary": "A club for founders and entrepreneurs at Cal Poly Pomona",
-      "highlights": []
+      "summary": "A club for founders and entrepreneurs at Cal Poly Pomona"
     },
     {
       "organization": "HackPoly 2017",
       "position": "Mentor & Judge",
       "website": "http://hackpoly.com/",
-      "startDate": "2017-02-18",
       "endDate": "2017",
-      "summary": "A hackathon event hosted at Cal Poly Pomona.",
-      "highlights": []
+      "summary": "A hackathon event hosted at Cal Poly Pomona."
     }
   ],
   "education": [
     {
       "institution": "Western Governors University",
-      "location": "",
       "area": "Computer Science",
       "studyType": "Bachelor of Science",
-      "startDate": "",
       "endDate": "2024"
     },
     {
       "institution": "Cal Poly Pomona",
-      "location": "",
+      "location": "Pomona, CA",
       "area": "Computer Science",
-      "studyType": "",
       "startDate": "2011",
-      "endDate": "2015",
-      "courses": [
-      ]
+      "endDate": "2015"
     }
   ],
   "awards": [
