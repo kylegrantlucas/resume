@@ -12,7 +12,7 @@
       "countryCode": "US",
       "region": "California"
     },
-    "profiles": [
+    "profiles": [ 
       {
         "network": "GitHub",
         "username": "kylegrantlucas",
@@ -22,11 +22,6 @@
         "network": "LinkedIn",
         "username": "kylegrantlucas",
         "url": "https://www.linkedin.com/in/kylegrantlucas"
-      },
-      {
-        "network": "Twitter",
-        "username": "kylegrantlucas",
-        "url": "https://twitter.com/kylegrantlucas"
       }
     ]
   },
@@ -169,8 +164,8 @@
       "organization": "PolyFounders",
       "position": "Speaker",
       "website": "http://polyfounders.com/",
-      "startDate": "2015-01-01",
-      "endDate": "2015-06-01",
+      "startDate": "",
+      "endDate": "2015",
       "summary": "A club for founders and entrepreneurs at Cal Poly Pomona",
       "highlights": []
     },
@@ -179,19 +174,27 @@
       "position": "Mentor & Judge",
       "website": "http://hackpoly.com/",
       "startDate": "2017-02-18",
-      "endDate": "2017-02-21",
+      "endDate": "2017",
       "summary": "A hackathon event hosted at Cal Poly Pomona.",
       "highlights": []
     }
   ],
   "education": [
     {
+      "institution": "Western Governors University",
+      "location": "",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "",
+      "endDate": "2024"
+    },
+    {
       "institution": "Cal Poly Pomona",
-      "location": "Pomona, CA",
-      "area": "Computer Science (Incomplete)",
+      "location": "",
+      "area": "Computer Science",
       "studyType": "",
-      "startDate": "2011-09-15",
-      "endDate": "2015-02-01",
+      "startDate": "2011",
+      "endDate": "2015",
       "courses": [
       ]
     }
@@ -199,7 +202,7 @@
   "awards": [
     {
       "title": "Eagle Scout",
-      "date": "2011-08-01",
+      "date": "2011",
       "awarder": "BSA"
     }
   ],
@@ -221,12 +224,6 @@
       "releaseDate": "2019-03-22",
       "website": "https://github.com/kylegrantlucas/kylelucas.io",
       "summary": "My personal website, built with 11ty."
-    },
-    {
-      "name": "cyberpower-exporter",
-      "releaseDate": "2018-12-04",
-      "website": "https://github.com/kylegrantlucas/cyberpower-exporter",
-      "summary": "A Go Prometheus exporter for the Cyberpower UPS line"
     },
     {
       "name": "speedtest",
