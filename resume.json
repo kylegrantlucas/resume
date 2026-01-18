@@ -2,17 +2,17 @@
   "basics": {
     "name": "Kyle Lucas-Rodriguez",
     "label": "Software Engineer",
-    "picture": "",
+    "image": "",
     "email": "kyle@kylelucas.io",
     "phone": "",
-    "website": "https://kylelucas.io",
-    "summary": "I build web-scale services, mostly in Go and Ruby.",
+    "url": "https://kylelucas.io",
+    "summary": "Staff Software Engineer specializing in web security and distributed systems. 11+ years building scalable services with expertise in application security, OWASP standards, and modern observability stacks. Currently architecting Fastly's NGWAF serving millions of requests while leveraging AI tools for threat detection and analysis.",
     "location": {
       "city": "Sacramento",
       "countryCode": "US",
       "region": "California"
     },
-    "profiles": [ 
+    "profiles": [
       {
         "network": "GitHub",
         "username": "kylegrantlucas",
@@ -27,153 +27,119 @@
   },
   "work": [
     {
-      "company": "Fastly",
+      "name": "Fastly",
       "location": "Remote",
       "position": "Staff Software Engineer",
-      "website": "https://fastly.com",
+      "url": "https://fastly.com",
       "startDate": "2022-04-01",
-      "endDate": "",
       "highlights": [
-        "Golang, Elasticsearch, MongoDB, gRPC"
+        "Scaled and rearchitected NGWAF Edge provisioning, WASM deployment, and config delivery systems to meet massive product growth",
+        "Core contributor to the NGWAF edge engine processing security decisions across Fastly's global POP network",
+        "Golang, WebAssembly, Elasticsearch, MongoDB, gRPC"
       ]
     },
     {
-      "company": "Fastly",
+      "name": "Fastly",
       "location": "Remote",
       "position": "Senior Software Engineer",
-      "website": "https://fastly.com",
+      "url": "https://fastly.com",
       "startDate": "2020-08-31",
       "endDate": "2022-03-31",
       "highlights": [
-        "Developed Bot protection systems",
-        "Implemented tools to help identify Account Take Over + API attacks",
+        "Built bot detection and account takeover protection systems at CDN edge scale",
+        "Led initial implementation of provisioning, WASM deployment, and config delivery for Fastly's NGWAF Edge product",
         "Golang, Elasticsearch, MongoDB, gRPC"
       ]
     },
     {
-      "company": "Fender Musical Instruments",
+      "name": "Fender Musical Instruments",
       "location": "Hollywood, CA",
       "position": "Senior Software Engineer",
-      "website": "https://fender.com",
+      "url": "https://fender.com",
       "startDate": "2019-05-06",
       "endDate": "2020-05-15",
-      "summary": "",
       "highlights": [
-        "Led conversion of backend from a 3rd party lambda to a native Go lambda",
-        "Helped design and implement a new version of our curriculum backend",
-        "Built a parser to convert MusicXML to an internal JSON format",
+        "Led migration from third-party Lambda to native Go, reducing cold start latency and eliminating vendor dependency",
+        "Designed curriculum backend powering Fender Play's lesson delivery system",
+        "Built MusicXML parser enabling automated tablature ingestion into learning platform",
         "Golang, Javascript, React, Lambda, DynamoDB, Postgresql, Elasticsearch"
       ]
     },
     {
-      "company": "i.am+",
+      "name": "i.am+",
       "location": "Hollywood, CA",
-      "position": "Software Engineering Manager / Senior Software Engineer",
-      "website": "https://will.i.am/",
-      "startDate": "2016-08-22",
+      "position": "Software Engineering Manager",
+      "url": "https://will.i.am/",
+      "startDate": "2018-08-01",
       "endDate": "2019-05-04",
-      "summary": "",
       "highlights": [
-        "Led the planning and execution of all US-based infrastructure",
-        "Worked with offshore QA and Engineering teams to pursue mutual goals",
-        "Built several highly scalable microservices for a music streaming platform",
+        "Directed US infrastructure strategy for music streaming platform launch",
+        "Managed cross-functional coordination between US engineering and offshore teams across 3 time zones",
+        "Maintained hands-on development while owning technical architecture decisions",
         "Golang, gRPC, Docker, Kubernetes, Postgresql, Elasticsearch, Neo4j, Ruby"
       ]
     },
     {
-      "company": "goSeek",
+      "name": "i.am+",
+      "location": "Hollywood, CA",
+      "position": "Senior Software Engineer",
+      "url": "https://will.i.am/",
+      "startDate": "2016-08-22",
+      "endDate": "2018-07-31",
+      "highlights": [
+        "Architected music streaming infrastructure processing Gracenote and 7Digital data deliveries for AI-powered music discovery",
+        "Built distributed systems serving music metadata to internal NLP engines enabling natural language queries",
+        "Developed backend services for 'buttons' headphones and smartwatch; provided EQ tuning expertise as audio domain specialist",
+        "Golang, gRPC, Docker, Kubernetes, Postgresql, Elasticsearch, Neo4j"
+      ]
+    },
+    {
+      "name": "goSeek",
       "location": "Remote",
       "position": "Software Engineer",
-      "website": "https://goseek.com",
+      "url": "https://goseek.com",
       "startDate": "2015-03-01",
       "endDate": "2016-03-01",
-      "summary": "",
       "highlights": [
-        "Built a central API for booking hotel stays through multiple 3rd party APIs",
+        "Built unified booking API aggregating multiple third-party hotel providers",
         "Ruby On Rails, Redis, Memcached, Postgresql w/ PostGIS"
       ]
     },
     {
-      "company": "TrackR",
-      "location": "Remote",
-      "position": "Software Engineer (Consultant)",
-      "website": "https://www.thetrackr.com/",
-      "startDate": "2014-09-01",
-      "endDate": "2015-02-01",
-      "summary": "",
-      "highlights": [
-        "Built a management tool for users to manage their Indiegogo orders",
-        "Ruby On Rails, Postgresql, ActiveAdmin"
-      ]
-    },
-    {
-      "company": "resound.fm",
+      "name": "resound.fm",
       "location": "San Luis Obispo, CA",
       "position": "Co-Founder / Lead Backend Engineer",
-      "website": "http://resound.fm",
+      "url": "http://resound.fm",
       "startDate": "2014-03-01",
       "endDate": "2015-03-01",
-      "summary": "",
       "highlights": [
-        "Designed and implemented data models, built APIs, managed DevOps",
-        "Ruby On Rails, Redis, Websockets, Postgresql, Chef, Rackspace"
+        "Co-founded startup; owned full platform from data modeling to infrastructure",
+        "Ruby On Rails, Redis, Websockets, Postgresql, Chef"
       ]
     },
     {
-      "company": "RadPad",
+      "name": "RadPad",
       "location": "Santa Monica, CA",
       "position": "Software Engineer",
-      "website": "http://onradpad.com",
+      "url": "http://onradpad.com",
       "startDate": "2014-01-01",
       "endDate": "2014-03-01",
-      "summary": "",
       "highlights": [
-        "Redesigned the backend apartment aggregation service to be 3x faster",
+        "Redesigned backend aggregation service achieving 3x performance improvement",
         "Ruby On Rails, Postgresql, S3"
       ]
     },
     {
-      "company": "Project Gigit",
-      "location": "Los Angeles, CA",
-      "position": "Software Engineer (Consultant)",
-      "website": "https://www.getgigit.com/",
-      "startDate": "2013-10-15",
-      "endDate": "2013-12-15",
-      "summary": "",
-      "highlights": [
-        "Built a service using concert data to help promoters identify band bookings",
-        "Ruby On Rails, Facebook API, Postgresql"
-      ]
-    },
-    {
-      "company": "Down",
+      "name": "Down",
       "location": "San Francisco, CA",
       "position": "Software Engineering Intern",
-      "website": "http://getdown.com",
+      "url": "http://getdown.com",
       "startDate": "2013-06-01",
       "endDate": "2013-10-01",
-      "summary": "",
       "highlights": [
-        "Built a Neo4j graph and API v2.0 for match discovery on 1.3m users",
+        "Built Neo4j graph and API v2.0 powering match discovery for 1.3M users",
         "Ruby on Rails, Neo4j, Postgresql"
       ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "PolyFounders",
-      "position": "Speaker",
-      "website": "http://polyfounders.com/",
-      "startDate": "",
-      "endDate": "2015",
-      "summary": "A club for founders and entrepreneurs at Cal Poly Pomona"
-    },
-    {
-      "organization": "HackPoly 2017",
-      "position": "Mentor & Judge",
-      "website": "http://hackpoly.com/",
-      "endDate": "2017",
-      "summary": "A hackathon event hosted at Cal Poly Pomona."
     }
   ],
   "education": [
@@ -191,65 +157,120 @@
       "endDate": "2015"
     }
   ],
-  "awards": [
-    {
-      "title": "Eagle Scout",
-      "date": "2011",
-      "awarder": "BSA"
-    }
-  ],
   "projects": [
     {
       "name": "pia-wg-config",
-      "releaseDate": "2022-09-18",
-      "website": "https://github.com/kylegrantlucas/pia-wg-config",
-      "summary": "A wireguard config generator for Private Internet Access."
+      "startDate": "2022-09-18",
+      "url": "https://github.com/kylegrantlucas/pia-wg-config",
+      "description": "A wireguard config generator for Private Internet Access."
+    },
+    {
+      "name": "chipotle-go",
+      "startDate": "2024",
+      "url": "https://github.com/kylegrantlucas/chipotle-go",
+      "description": "A Go client library for the Chipotle menu API."
     },
     {
       "name": "lyricpiece",
-      "releaseDate": "2020-08-04",
-      "website": "https://github.com/kylegrantlucas/lyricpiece",
-      "summary": "A small tool that gets the currently playing spotify track and then grabs a sample of the lyrics for display."
+      "startDate": "2020-08-04",
+      "url": "https://github.com/kylegrantlucas/lyricpiece",
+      "description": "A small tool that gets the currently playing spotify track and then grabs a sample of the lyrics for display."
     },
     {
       "name": "kylelucas.io",
-      "releaseDate": "2019-03-22",
-      "website": "https://github.com/kylegrantlucas/kylelucas.io",
-      "summary": "My personal website, built with 11ty."
+      "startDate": "2019-03-22",
+      "url": "https://github.com/kylegrantlucas/kylelucas.io",
+      "description": "My personal website, built with 11ty."
     },
     {
       "name": "speedtest",
-      "releaseDate": "2018-04-16",
-      "website": "https://github.com/kylegrantlucas/speedtest",
-      "summary": "A Go package for running tests against speedtest.net"
+      "startDate": "2018-04-16",
+      "url": "https://github.com/kylegrantlucas/speedtest",
+      "description": "A Go package for running tests against speedtest.net"
     }
   ],
   "skills": [
     {
-      "name": "Development",
-      "level": "Skilled",
+      "name": "Programming Languages",
       "keywords": [
-        "Golang",
+        "Go",
+        "Python",
         "Ruby",
-        "Bash",
-        "Postgresql",
-        "Elasticsearch",
-        "Neo4j",
-        "Redis",
-        "InfluxDB"
+        "JavaScript",
+        "Rust",
+        "WebAssembly",
+        "Bash"
       ]
     },
     {
-      "name": "Tooling",
-      "level": "Skilled",
+      "name": "AI-Augmented Development",
       "keywords": [
-        "Docker",
+        "Prompt Engineering",
+        "Agentic Workflows",
+        "RAG Pipelines",
+        "LLM Integration",
+        "AI-Assisted Code Generation",
+        "Technical Document Generation"
+      ]
+    },
+    {
+      "name": "Security & Application Protection",
+      "keywords": [
+        "Web Application Firewall",
+        "OWASP",
+        "Bot Protection",
+        "API Security",
+        "Threat Detection",
+        "Edge Security",
+        "Security Testing",
+        "Nuclei"
+      ]
+    },
+    {
+      "name": "System Design & Architecture",
+      "keywords": [
+        "Distributed Systems Design",
+        "High Availability",
+        "Scalability Patterns",
+        "Event-Driven Architecture",
+        "Capacity Planning",
+        "Technical Specifications"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "keywords": [
         "Kubernetes",
-        "Prometheus",
-        "Traefik",
+        "Docker",
+        "Nix",
+        "Terraform",
+        "Infrastructure as Code",
+        "CI/CD Pipelines",
+        "Reproducible Builds"
+      ]
+    },
+    {
+      "name": "Observability",
+      "keywords": [
         "Grafana",
-        "Helm",
-        "Spinnaker"
+        "Prometheus",
+        "Loki",
+        "Mimir",
+        "Elasticsearch",
+        "Kibana",
+        "Datadog"
+      ]
+    },
+    {
+      "name": "Backend & Distributed Systems",
+      "keywords": [
+        "gRPC",
+        "REST APIs",
+        "Microservices",
+        "Distributed Systems",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
       ]
     }
   ]

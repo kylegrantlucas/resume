@@ -4,17 +4,17 @@ The JSON and build scripts that generate my resume.
 
 ## Requirements
 
-The requirements list is quite simple:
-
-* Make
-* Docker
+* [just](https://github.com/casey/just)
 * [resume-exporter](https://github.com/kylegrantlucas/resume-exporter)
 
 ## Usage
 
-You can build the resume with an easy:
-
-  `$ make`
+```bash
+just            # build both templates
+just modern     # build modern only
+just classic    # build classic only
+just open       # open generated PDFs
+```
 
 ## Why?
 
@@ -24,4 +24,4 @@ You can build the resume with an easy:
 
 ## Credit
 
-Inspired (and based off) the [JSONResume](https://jsonresume.org/) project
+Inspired by the [JSONResume](https://jsonresume.org/) project.
