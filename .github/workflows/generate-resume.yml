@@ -7,18 +7,36 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Rust
-        uses: dtolnay/rust-toolchain@stable
+      - name: Install fonts
+        run: |
+          # Create font directory
+          mkdir -p ~/.local/share/fonts
+
+          # Download Helvetica Neue from GitHub
+          curl -sL https://github.com/ifvictr/helvetica-neue/archive/refs/heads/master.zip -o helvetica-neue.zip
+          unzip -q helvetica-neue.zip
+          cp helvetica-neue-master/*.otf ~/.local/share/fonts/
+          rm -rf helvetica-neue.zip helvetica-neue-master
+
+          # Download Avenir Next from GitHub
+          curl -sL "https://github.com/openwhyd/openwhyd/raw/main/public/fonts/AvenirNext-Regular.ttf" -o ~/.local/share/fonts/AvenirNext-Regular.ttf
+          curl -sL "https://github.com/openwhyd/openwhyd/raw/main/public/fonts/AvenirNext-Bold.ttf" -o ~/.local/share/fonts/AvenirNext-Bold.ttf
+          curl -sL "https://github.com/openwhyd/openwhyd/raw/main/public/fonts/AvenirNext-Medium.ttf" -o ~/.local/share/fonts/AvenirNext-Medium.ttf
+          curl -sL "https://github.com/openwhyd/openwhyd/raw/main/public/fonts/AvenirNext-DemiBold.ttf" -o ~/.local/share/fonts/AvenirNext-DemiBold.ttf
+
+          # Refresh font cache
+          fc-cache -f -v
+
+          # Verify fonts installed
+          fc-list | grep -i "avenir\|helvetica" || echo "Fonts installed"
 
       - name: Setup just
         uses: extractions/setup-just@v2
 
-      - name: Build resume-exporter
+      - name: Download resume-exporter
         run: |
-          git clone --depth 1 https://github.com/kylegrantlucas/resume-exporter.git /tmp/resume-exporter
-          cd /tmp/resume-exporter
-          cargo build --release
-          sudo cp target/release/resume-exporter /usr/local/bin/
+          curl -sL https://github.com/kylegrantlucas/resume-exporter/releases/latest/download/resume-exporter-linux-x86_64.tar.gz | tar xz
+          sudo mv resume-exporter /usr/local/bin/
 
       - name: Generate resumes
         run: just
