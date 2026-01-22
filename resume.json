@@ -3,9 +3,9 @@
     "name": "Kyle Lucas-Rodriguez",
     "label": "Software Engineer",
     "image": "",
-    "email": "kyle@kylelucas.io",
+    "email": "kyle@klr.dev",
     "phone": "",
-    "url": "https://kylelucas.io",
+    "url": "https://klr.dev",
     "summary": "Staff Software Engineer specializing in web security and distributed systems. 11+ years building scalable services with expertise in application security, OWASP standards, and modern observability stacks. Currently architecting Fastly's NGWAF serving millions of requests while leveraging AI tools for threat detection and analysis.",
     "location": {
       "city": "Sacramento",
@@ -177,9 +177,9 @@
       "description": "A small tool that gets the currently playing spotify track and then grabs a sample of the lyrics for display."
     },
     {
-      "name": "kylelucas.io",
+      "name": "klr.dev",
       "startDate": "2019-03-22",
-      "url": "https://github.com/kylegrantlucas/kylelucas.io",
+      "url": "https://github.com/kylegrantlucas/kylegrantlucas.github.io",
       "description": "My personal website, built with 11ty."
     },
     {
