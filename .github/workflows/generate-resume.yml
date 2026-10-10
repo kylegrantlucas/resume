@@ -55,10 +55,12 @@ jobs:
             output/kyle_classic.pdf
             output/kyle_modern.pdf
 
+      # The site builds from resume.json on main, so only notify it for main.
       - name: Repository Dispatch
+        if: github.ref == 'refs/heads/main'
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          repository: kylegrantlucas/kylelucas.io
+          repository: kylegrantlucas/kylegrantlucas.github.io
           event-type: resume-generated
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
