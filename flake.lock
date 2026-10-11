@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1791594108,
+        "narHash": "sha256-XK4KceonkwD8LuMAt/vNrz982mXJM5jeHAxMwsUXXAQ=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "6510408d147d8c5e6d76043e899e9251756f6a75",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "resume-exporter-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1768707733,
+        "narHash": "sha256-jVa7Ma0plMkoNDRA8XBAXWwd5wNBVrVa5u/hb5Z48so=",
+        "owner": "kylegrantlucas",
+        "repo": "resume-exporter",
+        "rev": "1e2c1a8cf6655e4fb97f19052897eb7c45f96b4f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kylegrantlucas",
+        "repo": "resume-exporter",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "resume-exporter-src": "resume-exporter-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

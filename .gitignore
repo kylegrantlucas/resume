@@ -3,3 +3,4 @@ output/*.aux
 output/*.out
 output/
 .DS_Store
+.direnv/
